@@ -1,3 +1,4 @@
+"""q."""
 import os
 from pathlib import Path
 
@@ -69,7 +70,7 @@ DATABASES = {
         'HOST': os.getenv('DB_HOST', ''),
         'PORT': os.getenv('DB_PORT', 5432)
     }
-} 
+}
 
 
 # Password validation
